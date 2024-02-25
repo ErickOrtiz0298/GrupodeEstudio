@@ -1,4 +1,4 @@
-//Paso 1 crear la clase. 
+//Paso 1 crear la clase. Plantilla
 class Punto{
     //Definir el constructor
     constructor(X,Y)
@@ -38,6 +38,7 @@ miPunto.mostrarPunto();
 console.log("El atributo en X es: " + miPunto.X);  //Este accede al valor del atributo encapsulado
 //console.log("El atributo en X es: " + miPunto._X); //Este accede directamente al atributo.
 
+//Paso 4 Modificar los atributos de los objetos.
 miPunto.X = 17; // Acceder al metodo setter
 miPunto.Y = 19; //Acceder al metodo setter
 console.log("El atributo en X es: " + miPunto.X);
